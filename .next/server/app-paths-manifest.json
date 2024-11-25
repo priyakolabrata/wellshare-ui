@@ -1,5 +1,4 @@
 {
-  "/page": "app/page.js",
-  "/search/page": "app/search/page.js",
-  "/landing/default/page": "app/landing/default/page.js"
+  "/landing/default/page": "app/landing/default/page.js",
+  "/search/default/page": "app/search/default/page.js"
 }

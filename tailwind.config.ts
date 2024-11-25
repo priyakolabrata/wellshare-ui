@@ -10,6 +10,24 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+			'wsPrimary': '#64775E',
+			'wsPrimary-dark': '#928F8C4D',
+			'wsPrimary-light': '#8a9b7a',
+			'wsPrimaryHover': 'rgba(146, 143, 140, 0.3)',
+			'wsSecondary': '#EAE9DD',
+			'wsAccent': '#FFFDF2',
+			'wsDestructive': '#FF6347',
+			'wsMuted': '#808080',
+			'wsBackground': '#FEFDF2',
+			'wsForeground': '#505050',
+			'wsCard': '#FFFFFF',
+			'wsPopover': '#F0F8FF',
+			'wsBorder': 'rgba(146,143,140,0.3)',
+			'wsInput': '#F0F8FF',
+			'wsRing': '#928F8C',
+			'wsChart1': '#FF6347',
+			'wsChart2': '#FFA500',
+			'accent': 'green', // Define your accent color here
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
