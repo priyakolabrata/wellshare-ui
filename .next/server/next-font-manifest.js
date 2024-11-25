@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/workspaces/wellshare-ui/app/layout\":[\"static/media/4473ecc91f70f139-s.p.woff\",\"static/media/463dafcda517f24f-s.p.woff\"],\"/workspaces/wellshare-ui/app/search/layout\":[\"static/media/463dafcda517f24f-s.p.woff\",\"static/media/4473ecc91f70f139-s.p.woff\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
