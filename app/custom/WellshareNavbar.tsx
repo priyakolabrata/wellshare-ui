@@ -18,7 +18,7 @@ const WellshareNavbar = () => {
     <nav className="w-full bg-wsSecondary place-items-center">
       <div className="container flex justify-between items-center p-4">
         <div className="flex items-center space-x-4">
-          <img src="/images/wellshare.png" alt="Logo" className="h-8 w-auto sm:h-12 sm:w-auto" />
+          <img src="/images/wellshare.png" alt="Logo" className="h-6 w-auto sm:h-8 sm:w-auto" />
         </div>
         <ul className="flex space-x-4">
           <li className="hidden sm:flex items-center space-x-2">
