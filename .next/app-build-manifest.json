@@ -17,6 +17,28 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/landing/default/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/landing/default/page.js"
+    ],
+    "/landing/default/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/landing/default/layout.css",
+      "static/chunks/app/landing/default/layout.js"
+    ],
+    "/base_page/default/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/base_page/default/page.js"
+    ],
+    "/base_page/default/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/base_page/default/layout.css",
+      "static/chunks/app/base_page/default/layout.js"
+    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
