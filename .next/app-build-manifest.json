@@ -3,6 +3,7 @@
     "/search/default/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/search/default/page.css",
       "static/chunks/app/search/default/page.js"
     ],
     "/search/default/layout": [
@@ -16,17 +17,6 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/landing/default/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/landing/default/page.js"
-    ],
-    "/landing/default/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/landing/default/layout.css",
-      "static/chunks/app/landing/default/layout.js"
     ]
   }
 }

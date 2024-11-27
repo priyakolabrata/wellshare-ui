@@ -1,6 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
+import sortby_img from '/public/images/sortby.png';
+
+import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faList, faMap, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+import FiltersPanel from './FiltersPanel';
+import SortModal from './SortModal';
+
+
+
 
 const SearchResultsCard = () => {
+  const [activeButton, setActiveButton] = useState<string | null>(null);
+  const [activeListButton, setActiveListButton] = useState<string | null>(null);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+
+  const handleClick = (button: string) => {
+    setActiveButton(button);
+  };
+
+  
   const categories = [
     { title: 'Treatment', icon: '/api/placeholder/40/40' },
     { title: 'Medical', icon: '/api/placeholder/40/40' },
@@ -46,14 +74,24 @@ const SearchResultsCard = () => {
         
         {/* Filters */}
         <div className="flex justify-end items-center gap-3 mt-4">
-          <button className="flex items-center gap-2 px-4 py-2 bg-white/30 rounded-full border border-[#928f8c]/30">
-            <img src="/api/placeholder/20/20" alt="sort" className="w-5 h-5" />
-            <span className="text-[#4f4f4f] text-xs">Sort by</span>
-          </button>
-          <button className="flex items-center gap-2 px-4 py-2 bg-white/30 rounded-full border border-[#928f8c]/30">
-            <img src="/api/placeholder/20/20" alt="filter" className="w-5 h-5" />
-            <span className="text-[#4f4f4f] text-xs">Filters</span>
-          </button>
+        <SortModal/>
+        <FiltersPanel 
+  isOpen={filtersOpen}
+  onClose={() => setFiltersOpen(false)}
+/>
+        
+          
+            <div className="flex items-center border  px-1 py-1 border-[#928f8c]/30 rounded-full">
+            <ToggleGroup type="single">
+  <ToggleGroupItem onClick={() => handleClick('list')}
+    className={`data-[state=on]:bg-wsPrimary data-[state=on]:text-white rounded-full text-center transition-all duration-200 ease-in-out focus:outline-none ${
+            activeButton === 'list' ? 'bg-wsPrimary text-white' : 'text-[#4f4f4f]'}`} value="a">
+              
+              <FontAwesomeIcon icon={faMap}  className="w-5 h-5"/></ToggleGroupItem>
+  <ToggleGroupItem onClick={() => handleClick('map')} className={`data-[state=on]:bg-wsPrimary data-[state=on]:text-white rounded-full text-center transition-all duration-200 ease-in-out focus:outline-none ${
+            activeButton === 'map' ? 'bg-wsPrimary text-white' : 'text-[#4f4f4f]'}`} value="c"><FontAwesomeIcon icon={faList}  className="w-5 h-5"/></ToggleGroupItem>
+</ToggleGroup>
+          </div>
         </div>
       </div>
 

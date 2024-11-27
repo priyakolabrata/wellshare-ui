@@ -20,11 +20,10 @@ const SearchHeader = () => {
           {/* Search Section */}
           <div className="w-full md:w-auto">
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 hidden md:block">
-              <img className="bg-wsPrimary w-16 h-12 p-2 rounded-full" src={wellshare_img.src} alt="Search" />
-              
-        </div>
-              <div className="w-full flex items-center bg-white rounded-[50px] shadow border border-[#d9d9d9]">
+              <div className="w-14 h-12 hidden md:block">
+                <img className="bg-wsPrimary w-14 h-12 p-2 rounded-full" src={wellshare_img.src} alt="Search" />  
+              </div>
+              <div className="w-full flex items-center bg-white rounded-[50px] shadow border border-[#d9d9d9] pr-4">
                 {/* NSW Dropdown */}
                 <div className="hidden md:flex items-center justify-center w-[135px] py-3.5">
                   <div className="text-[#4f4f4f] text-base font-semibold font-['DM Sans']">NSW</div>

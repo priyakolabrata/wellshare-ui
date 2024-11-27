@@ -7,6 +7,7 @@ import { Repo } from "@/types/Repo";
 import SearchHeader from "@/search/components/SearchHeader";
 import Footer from "@/search/components/Footer";
 import SearchResultsCard from "@/search/components/SearchResultsCard";
+
 import ExploreBreadcrumb from "@/search/components/ExploreBreadcrumb";
 import HeroImage from '@/custom/HeroImage';
 import whywellshare1 from '/public/images/wellsharelandingimg.png';
