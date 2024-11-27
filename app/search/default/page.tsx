@@ -5,6 +5,7 @@ import WellshareNavbar from "@/custom/WellshareNavbar";
 import { useState, useEffect } from 'react'
 import { Repo } from "@/types/Repo";
 import SearchResultsCard from "@/search/components/SearchResultsCard";
+import ExploreBreadcrumb from "@/search/components/ExploreBreadcrumb";
 import HeroImage from '@/custom/HeroImage';
 import whywellshare1 from '/public/images/wellsharelandingimg.png';
 import Footer from "@/custom/Footer";
@@ -46,6 +47,7 @@ export default function Home() {
     <WellshareNavbar />
     <main className="flex-grow">
       <SearchResultsCard />
+      <ExploreBreadcrumb />
     </main>
     <Footer />
   </div>
