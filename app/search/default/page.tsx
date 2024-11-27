@@ -4,11 +4,12 @@ import Image from "next/image";
 import WellshareNavbar from "@/custom/WellshareNavbar";
 import { useState, useEffect } from 'react'
 import { Repo } from "@/types/Repo";
+import SearchHeader from "@/search/components/SearchHeader";
+import Footer from "@/search/components/Footer";
 import SearchResultsCard from "@/search/components/SearchResultsCard";
 import ExploreBreadcrumb from "@/search/components/ExploreBreadcrumb";
 import HeroImage from '@/custom/HeroImage';
 import whywellshare1 from '/public/images/wellsharelandingimg.png';
-import Footer from "@/custom/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -44,10 +45,9 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-    <WellshareNavbar />
+    <SearchHeader />
     <main className="flex-grow">
       <SearchResultsCard />
-      <ExploreBreadcrumb />
     </main>
     <Footer />
   </div>

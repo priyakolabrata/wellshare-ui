@@ -17,10 +17,16 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/_not-found/page": [
+    "/landing/default/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/landing/default/page.js"
+    ],
+    "/landing/default/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/landing/default/layout.css",
+      "static/chunks/app/landing/default/layout.js"
     ]
   }
 }
