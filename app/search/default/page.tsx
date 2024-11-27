@@ -29,6 +29,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import LocationExplorer from "../components/LocationExplorer";
 
 
 export default function Home() {
@@ -49,6 +50,7 @@ export default function Home() {
     <SearchHeader />
     <main className="flex-grow">
       <SearchResultsCard />
+      <LocationExplorer/>
     </main>
     <Footer />
   </div>

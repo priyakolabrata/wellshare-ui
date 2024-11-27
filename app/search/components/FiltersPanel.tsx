@@ -85,7 +85,7 @@ const FiltersPanel: React.FC<FiltersPanelProps> = ({ isOpen, onClose }) => {
           alt="sort" className="w-5 h-5 m-2"
           /><span className="text-[#4f4f4f] text-xs py-2">Filters</span>
     </div> </DialogTrigger>
-  <DialogContent className="min-w-2/5 h-4/5 bg-white">
+  <DialogContent className="min-w-3/5 h-4/5 bg-white">
   <div className={`h-full overflow-scroll
       fixed inset-0 z-50 bg-white lg:relative lg:bg-transparent
       transform transition-transform duration-300 ease-in-out

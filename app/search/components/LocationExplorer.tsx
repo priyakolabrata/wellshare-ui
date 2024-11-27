@@ -1,17 +1,19 @@
+import { ChevronRight } from 'lucide-react';
 import React from 'react';
+
 
 const LocationExplorer = () => {
   return (
-    <div className="w-full max-w-[1080px] mx-auto px-4 md:px-6 lg:px-8 flex flex-col gap-8 lg:gap-10">
+    <div className="max-w-7xl  mx-auto px-4 md:px-6 lg:px-8 flex flex-col gap-8 lg:gap-10">
       <div className="flex flex-col gap-8 lg:gap-10">
         <div className="border-t border-[#eae9dd]"></div>
         <div className="flex flex-wrap items-center gap-2 md:gap-[7px]">
           <span className="text-[#4f4f4f] text-sm font-normal font-['DM Sans']">Wellshare</span>
-          <div className="w-2 h-2 bg-[#4f4f4f] rounded-full"></div>
+          <ChevronRight className="text-xs font-thin text-[#4f4f4f]"/>
           <span className="text-[#4f4f4f] text-sm font-normal font-['DM Sans']">Australia</span>
-          <div className="w-2 h-2 bg-[#4f4f4f] rounded-full"></div>
+          <ChevronRight className="text-xs font-thin text-[#4f4f4f]"/>
           <span className="text-[#4f4f4f] text-sm font-normal font-['DM Sans']">New South Wales</span>
-          <div className="w-2 h-2 bg-[#4f4f4f] rounded-full"></div>
+          <ChevronRight className="text-xs font-thin text-[#4f4f4f]"/>
           <span className="text-[#4f4f4f] text-sm font-normal font-['DM Sans']">Sydney</span>
         </div>
         <div className="border-t border-[#eae9dd]"></div>

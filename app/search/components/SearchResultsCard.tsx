@@ -1,20 +1,21 @@
 import React, { useState } from 'react';
 import sortby_img from '/public/images/sortby.png';
-
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination"
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faList, faMap, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog"
 import FiltersPanel from './FiltersPanel';
 import SortModal from './SortModal';
+import LocationExplorer from './LocationExplorer';
 
 
 
@@ -151,7 +152,27 @@ const SearchResultsCard = () => {
             </div>
           </div>
         ))}
+
+<Pagination>
+  <PaginationContent>
+    <PaginationItem>
+      <PaginationPrevious href="#" />
+    </PaginationItem>
+    <PaginationItem>
+      <PaginationLink href="#">1</PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+      <PaginationEllipsis />
+    </PaginationItem>
+    <PaginationItem>
+      <PaginationNext href="#" />
+    </PaginationItem>
+  </PaginationContent>
+</Pagination>
       </div>
+
+
+
     </div>
   );
 };
