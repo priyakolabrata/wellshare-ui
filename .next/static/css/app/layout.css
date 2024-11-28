@@ -1741,8 +1741,13 @@ video {
 .max-w-sm {
   max-width: 24rem;
 }
+<<<<<<< HEAD
 .max-w-2xl {
   max-width: 42rem;
+=======
+.max-w-\[1280px\] {
+  max-width: 1280px;
+>>>>>>> 09ec6c3 (all changes for booking)
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -3297,8 +3302,13 @@ body {
     height: 410px;
   }
 
+<<<<<<< HEAD
   .md\:h-\[550px\] {
     height: 550px;
+=======
+  .md\:h-9 {
+    height: 2.25rem;
+>>>>>>> 09ec6c3 (all changes for booking)
   }
 
   .md\:w-1\/4 {
@@ -3317,8 +3327,13 @@ body {
     width: auto;
   }
 
+<<<<<<< HEAD
   .md\:w-\[756px\] {
     width: 756px;
+=======
+  .md\:w-9 {
+    width: 2.25rem;
+>>>>>>> 09ec6c3 (all changes for booking)
   }
 
   .md\:flex-none {
@@ -3393,6 +3408,7 @@ body {
     padding-right: 162px;
   }
 
+<<<<<<< HEAD
   .md\:px-\[100px\] {
     padding-left: 100px;
     padding-right: 100px;
@@ -3401,6 +3417,11 @@ body {
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+=======
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+>>>>>>> 09ec6c3 (all changes for booking)
   }
 
   .md\:text-2xl {
@@ -3416,6 +3437,11 @@ body {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -3513,6 +3539,11 @@ body {
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .lg\:pl-10 {
