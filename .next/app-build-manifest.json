@@ -55,10 +55,16 @@
       "static/css/app/filter1/default/layout.css",
       "static/chunks/app/filter1/default/layout.js"
     ],
-    "/_not-found/page": [
+    "/filtershowall/default/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/filtershowall/default/page.js"
+    ],
+    "/filtershowall/default/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/filtershowall/default/layout.css",
+      "static/chunks/app/filtershowall/default/layout.js"
     ]
   }
 }
