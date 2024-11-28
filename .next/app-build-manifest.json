@@ -33,6 +33,28 @@
       "static/css/app/landing/default/layout.css",
       "static/chunks/app/landing/default/layout.js"
     ],
+    "/gridview/default/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/gridview/default/page.js"
+    ],
+    "/gridview/default/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/gridview/default/layout.css",
+      "static/chunks/app/gridview/default/layout.js"
+    ],
+    "/filter1/default/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/filter1/default/page.js"
+    ],
+    "/filter1/default/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/filter1/default/layout.css",
+      "static/chunks/app/filter1/default/layout.js"
+    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
